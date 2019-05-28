@@ -1,0 +1,11 @@
+node_modules/
+
+# Build
+build/
+images/
+*.zip
+
+# Logs
+logs
+*.log
+

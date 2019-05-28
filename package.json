@@ -1,0 +1,45 @@
+{
+  "name": "tdp-custom-login",
+  "version": "1.0.0",
+  "description": "A plugin that replaces the WordPress login flow with a custom page",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "author": "@chrisservius",
+  "private": true,
+  "license": "GPLv3",
+  "repository": "git@github.com:spidergon/tdp-custom-login.git",
+  "homepage": "https://github.com/spidergon/tdp-custom-login#readme",
+  "bugs": {
+    "url": "https://github.com/spidergon/tdp-custom-login/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@wordpress/scripts": "^3.2.1",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "del": "^4.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cache": "^1.1.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-zip": "^5.0.0",
+    "postcss-assets": "^5.0.0",
+    "vinyl-paths": "^3.0.0"
+  }
+}
