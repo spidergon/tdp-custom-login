@@ -39,7 +39,7 @@ const dist = {
     '**/*.scss',
     '**/*.json',
     // include specific files and folders
-    'screenshot.png',
+    // 'screenshot.png',
     '.eslintrc',
     '.gitignore',
     '**/images/**/*',
@@ -73,7 +73,7 @@ const cssSettings = {
       baseUrl: isProd ? dir.root : '/lingroove/wp-content/plugins/tdp-sound/'
     }),
     require('autoprefixer')({
-      browsers: ['last 2 versions', '> 2%']
+      overrideBrowserslist: ['last 2 versions', '> 2%']
     }),
     require('css-mqpacker'),
     require('cssnano')
@@ -164,8 +164,8 @@ exports.watch = series(images, watchFiles)
 exports.build = series(
   setProd,
   clean,
-  images,
-  css,
+  // images,
+  // css,
   buildFiles,
   buildZip,
   cleanBuild
